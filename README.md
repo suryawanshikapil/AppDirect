@@ -23,7 +23,7 @@ This source folder contains config.properties file which has Asserts and file pa
 
 
 
-Test Automation approach
+##Test Automation approach
 Positive scenarios:
 When test cases are run , first data provider sheet will be read and depending on the key  in the data provider sheet (gmail/yahoo) it will first generate an email on the fly and write the same in data provider sheet. Same email ids will be used in tests.
 
@@ -40,5 +40,5 @@ Improvement Suggestions:
 Help link on the sign up page is at the very bottom of the page. Some user may not notice the link. Placement of the link should be at some place where all user can easily spot the link.
 
 Instructions for Running:
- Right click on ìAppDirectTestSuite.xmlî file and run as testNG suite. You can run the test cases on IE, chrome or  firefox browser by changing browser parameter value in AppDirectTestSuite.xml file
+ Right click on ‚ÄúAppDirectTestSuite.xml‚Äù file and run as testNG suite. You can run the test cases on IE, chrome or  firefox browser by changing browser parameter value in AppDirectTestSuite.xml file
 
