@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [AppDirectTest]" parallel="classes" data-provider-thread-count="1">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="seleniumhost" value="localhost"/>
+  <parameter name="runLocally" value="true"/>
+  <test name="Integration(failed)" parallel="classes">
+    <classes>
+      <class name="com.appdirect.qe.appdirectintegration.tests.SignUpAllLinks">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.appdirect.qe.appdirectintegration.tests.SignUpAllLinks -->
+      <class name="com.appdirect.qe.appdirectintegration.tests.SignUpPositive">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.appdirect.qe.appdirectintegration.tests.SignUpPositive -->
+      <class name="com.appdirect.qe.appdirectintegration.tests.SignUpNegative">
+        <methods>
+          <include name="teardown"/>
+          <include name="testErrorScenarios" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.appdirect.qe.appdirectintegration.tests.SignUpNegative -->
+    </classes>
+  </test> <!-- Integration(failed) -->
+</suite> <!-- Failed suite [AppDirectTest] -->

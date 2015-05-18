@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AppDirectTest" duration-ms="256720" started-at="2015-05-18T20:34:42Z" finished-at="2015-05-18T20:38:59Z">
+    <groups>
+    </groups>
+    <test name="Integration" duration-ms="256720" started-at="2015-05-18T20:34:42Z" finished-at="2015-05-18T20:38:59Z">
+      <class name="com.appdirect.qe.appdirectintegration.tests.SignUpAllLinks">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpAllLinks@3a03464]" name="setUp" is-config="true" duration-ms="9964" started-at="2015-05-18T13:37:38Z" finished-at="2015-05-18T13:37:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSignupPageLinks(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpAllLinks@3a03464]" name="testSignupPageLinks" duration-ms="70559" started-at="2015-05-18T13:37:48Z" data-provider="AppDirectTestData" finished-at="2015-05-18T13:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SignUpAllLinks]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupPageLinks -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpAllLinks@3a03464]" name="teardown" is-config="true" duration-ms="238" started-at="2015-05-18T13:38:59Z" finished-at="2015-05-18T13:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.appdirect.qe.appdirectintegration.tests.SignUpAllLinks -->
+      <class name="com.appdirect.qe.appdirectintegration.tests.SignUpPositive">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpPositive@531be3c5]" name="setUp" is-config="true" duration-ms="9453" started-at="2015-05-18T13:34:43Z" finished-at="2015-05-18T13:34:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAppDirectSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpPositive@531be3c5]" name="testAppDirectSignUp" duration-ms="27034" started-at="2015-05-18T13:34:52Z" data-provider="AppDirectTestData" finished-at="2015-05-18T13:35:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SignUpPositive]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AppDirect4877@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppDirectSignUp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpPositive@531be3c5]" name="teardown" is-config="true" duration-ms="230" started-at="2015-05-18T13:35:19Z" finished-at="2015-05-18T13:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpPositive@531be3c5]" name="setUp" is-config="true" duration-ms="9390" started-at="2015-05-18T13:35:19Z" finished-at="2015-05-18T13:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAppDirectSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpPositive@531be3c5]" name="testAppDirectSignUp" duration-ms="27497" started-at="2015-05-18T13:35:29Z" data-provider="AppDirectTestData" finished-at="2015-05-18T13:35:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SignUpPositive]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yahoo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AppDirect9148@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppDirectSignUp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpPositive@531be3c5]" name="teardown" is-config="true" duration-ms="240" started-at="2015-05-18T13:35:56Z" finished-at="2015-05-18T13:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.appdirect.qe.appdirectintegration.tests.SignUpPositive -->
+      <class name="com.appdirect.qe.appdirectintegration.tests.SignUpNegative">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="setUp" is-config="true" duration-ms="9333" started-at="2015-05-18T13:35:57Z" finished-at="2015-05-18T13:36:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testErrorScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="testErrorScenarios" duration-ms="24213" started-at="2015-05-18T13:36:06Z" data-provider="AppDirectTestData" finished-at="2015-05-18T13:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SignUpNegative]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorScenarios -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="teardown" is-config="true" duration-ms="229" started-at="2015-05-18T13:36:30Z" finished-at="2015-05-18T13:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="setUp" is-config="true" duration-ms="9192" started-at="2015-05-18T13:36:30Z" finished-at="2015-05-18T13:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testErrorScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="testErrorScenarios" duration-ms="21835" started-at="2015-05-18T13:36:40Z" data-provider="AppDirectTestData" finished-at="2015-05-18T13:37:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SignUpNegative]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Existing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kapil@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorScenarios -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="teardown" is-config="true" duration-ms="250" started-at="2015-05-18T13:37:01Z" finished-at="2015-05-18T13:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="setUp" is-config="true" duration-ms="9212" started-at="2015-05-18T13:37:02Z" finished-at="2015-05-18T13:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testErrorScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="testErrorScenarios" duration-ms="26849" started-at="2015-05-18T13:37:11Z" data-provider="AppDirectTestData" finished-at="2015-05-18T13:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SignUpNegative]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorScenarios -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.appdirect.qe.appdirectintegration.tests.SignUpNegative@52af6cff]" name="teardown" is-config="true" duration-ms="260" started-at="2015-05-18T13:37:38Z" finished-at="2015-05-18T13:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.appdirect.qe.appdirectintegration.tests.SignUpNegative -->
+    </test> <!-- Integration -->
+  </suite> <!-- AppDirectTest -->
+</testng-results>

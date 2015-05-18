@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="AppDirectTest"
+       skipfailedinvocationcounts="false" junit="false" parallel="classes"
+       data-provider-thread-count="1" annotations="JDK">
+
+  <!-- optional (defaults to firefox). Firefox browser will be used for
+    web test -->
+
+  <parameter name="runLocally" value="true"/>
+  <parameter name="seleniumhost" value="localhost" />
+   <parameter name="browser" value="firefox" />
+ 
+
+  <test name="Integration" preserve-order="true">
+    <packages>
+      <package name="com.appdirect.qe.appdirectintegration.tests"></package>
+    </packages>
+  </test>
+
+ 
+  
+</suite>
